@@ -1,2 +1,2 @@
-# homepage
-My first personal website. Basically it is just a résumé.
+# Resume
+Initial README Commit
