@@ -177,3 +177,31 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+section {
+    margin-bottom: 55px;
+}
+
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+    margin: 8px 0 15px 0;
+}
+
+.profession-company {
+    color: #ff7920;
+}
+
+.profession-time {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.divider {
+    color: black;
+}
