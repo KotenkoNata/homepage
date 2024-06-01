@@ -287,3 +287,31 @@ footer {
         padding: 70px 50px;
     }
 }
+
+/*Styles for phone*/
+
+@media screen and (min-width: 320px) and (max-width: 440px){
+    .code{
+        max-width: 220px;
+        border: 1px solid green;
+    }
+
+    .header-body{
+        height: 50px;
+    }
+    #project-experience ul{
+        display: block;
+    }
+    .project-example-list{
+        width: 100%;
+    }
+
+    .project-example-list:first-of-type{
+        margin-bottom: 10px;
+    }
+
+    .about-me-title{
+        margin-bottom: 15px;
+    }
+
+}
