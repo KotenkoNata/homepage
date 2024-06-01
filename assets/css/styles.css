@@ -226,3 +226,19 @@ section {
 .specialization {
     margin-bottom: 15px;
 }
+
+/*Footer*/
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
