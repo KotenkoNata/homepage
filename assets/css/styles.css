@@ -89,3 +89,33 @@ body {
 .skills-list li span {
     color: #e2e4e6;
 }
+
+.about-me-container {
+    padding: 110px 90px;
+}
+
+/*Main details*/
+
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+.description {
+    margin-top: 24px;
+}
+
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
