@@ -3,9 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
+    font-family: Montserrat, sans-serif;
     background-color: #f5f7fa;
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -13,14 +14,12 @@ body {
 
 .main-wrapper {
     position: relative;
-    background: #ffffff;
+    background: #fff;
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 9px 20px rgba(0 0 0 / 15%);
 }
-
-/*Aside styles*/
 
 .my-photo {
     width: 100%;
@@ -35,7 +34,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
     margin-bottom: 20px;
     padding-left: 10px;
 }
@@ -44,7 +43,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -66,18 +65,18 @@ body {
 
 .contact-list {
     list-style-type: none;
-    padding: 0 0 15px 0;
+    padding-bottom: 15px;
 }
 
 .skills-container {
-    margin: 55px 40px 0 40px;
+    margin: 55px 40px 0;
 }
 
 .skills-title {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
     margin-bottom: 20px;
 }
 
@@ -93,8 +92,6 @@ body {
 .about-me-container {
     padding: 110px 90px;
 }
-
-/*Main details*/
 
 .profession {
     font-size: 14px;
@@ -141,6 +138,14 @@ body {
     display: flex;
 }
 
+.project-example-list {
+    width: calc((100% - 24px) / 2);
+    margin-right: 20px;
+    border: 1px solid #1e2939;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 1px rgb(0 0 0 / 14%), 0 2px 1px rgb(0 0 0 / 20%);
+}
+
 .project-example-list:nth-child(2n){
     margin-right: 0;
 }
@@ -148,14 +153,6 @@ body {
 .project-name {
     color: #ff7920;
     font-weight: bold;
-}
-
-.project-example-list{
-    width: calc((100% - 24px) / 2);
-    margin-right: 20px;
-    border: 1px solid #1e2939;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 1px rgb(0 0 0 / 14%), 0 2px 1px rgb(0 0 0 / 20%);
 }
 
 .project-example-container{
@@ -168,7 +165,7 @@ body {
     left: 0;
     width: 100%;
     height: 35%;
-    background-color: rgba(30, 41, 57, 0.95);
+    background-color: rgba(30 41 57/95%);
 }
 
 
@@ -186,8 +183,7 @@ section {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-
-    margin: 8px 0 15px 0;
+    margin: 8px 0 15px;
 }
 
 .profession-company {
@@ -214,8 +210,7 @@ section {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
-
-    margin: 55px 0 20px 0;
+    margin: 55px 0 20px;
 }
 
 .education-place {
@@ -227,28 +222,23 @@ section {
     margin-bottom: 15px;
 }
 
-/*Footer*/
-
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     font-weight: bold;
-
     padding: 20px 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*Styles for desktop*/
-
-@media screen and (min-width:1200px){
+@media (width >1200px) {
     .wrapper{
         display: none;
     }
+
     .tech-skills-tablet-container{
         display: none;
     }
@@ -256,14 +246,11 @@ footer {
     .sidebar {
         background: #1e2939;
         min-width: 370px;
-        padding: 40px 0 40px 0;
+        padding: 40px 0;
     }
 }
 
-/*Styles for tablet*/
-
-@media screen and (min-width: 768px) and (max-width: 1199px){
-
+@media screen and (width > 768px) and (width< 1199px){
     .wrapper{
         display: none;
     }
@@ -275,7 +262,7 @@ footer {
     .sidebar {
         background: #1e2939;
         min-width: 300px;
-        padding: 40px 0 40px 0;
+        padding: 40px 0;
     }
 
     .name{
@@ -283,14 +270,13 @@ footer {
         font-weight: 700;
         line-height: 66px;
     }
+
     .about-me-container {
         padding: 70px 50px;
     }
 }
 
-/*Styles for phone*/
-
-@media screen and (min-width: 320px) and (max-width: 440px){
+@media screen and (width> 320px) and (width< 440px){
     .code{
         max-width: 220px;
         border: 1px solid green;
@@ -299,9 +285,11 @@ footer {
     .header-body{
         height: 50px;
     }
+
     #project-experience ul{
         display: block;
     }
+
     .project-example-list{
         width: 100%;
     }
@@ -315,7 +303,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (width< 767px) {
     .sidebar {
         display: none;
     }
@@ -331,7 +319,7 @@ footer {
         font-size: 18px;
         font-weight: 700;
         line-height: 24px;
-        color: #ffffff;
+        color: #fff;
         margin-bottom: 10px;
     }
 
@@ -347,7 +335,7 @@ footer {
     }
 
     .about-me-container {
-        padding: 90px 30px 60px 30px;
+        padding: 90px 30px 60px;
     }
 
     .container{
@@ -382,6 +370,7 @@ footer {
         height: 60px;
         align-items: center;
     }
+
     .header-logo{
         flex: 0 0 40px;
         border-radius: 50%;
@@ -402,11 +391,11 @@ footer {
 
     .header-list li{
         color: #ff6b08;
-        margin: 0 0 10px 0;
+        margin: 0 0 10px;
     }
 
     .header-link{
-        color: #ffffff;
+        color: #fff;
         font-size: 16px;
         text-decoration: none;
     }
@@ -438,6 +427,7 @@ footer {
         height: 20px;
         z-index: 3;
     }
+
     .header-burger span{
         position: absolute;
         background-color: white;
@@ -476,12 +466,12 @@ footer {
         bottom: 9px;
     }
 
-    .header-burger.active span{
-        transform: scale(0);
-    }
-
     .skills-list li span{
         color: black;
+    }
+
+    .header-burger.active span{
+        transform: scale(0);
     }
 
     .contact-list{
