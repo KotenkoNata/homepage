@@ -68,3 +68,24 @@ body {
     list-style-type: none;
     padding: 0 0 15px 0;
 }
+
+.skills-container {
+    margin: 55px 40px 0 40px;
+}
+
+.skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.skills-list li {
+    margin-left: 15px;
+    color: #ff6b08;
+}
+
+.skills-list li span {
+    color: #e2e4e6;
+}
