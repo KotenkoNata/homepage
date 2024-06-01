@@ -242,3 +242,20 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/*Styles for desktop*/
+
+@media screen and (min-width:1200px){
+    .wrapper{
+        display: none;
+    }
+    .tech-skills-tablet-container{
+        display: none;
+    }
+
+    .sidebar {
+        background: #1e2939;
+        min-width: 370px;
+        padding: 40px 0 40px 0;
+    }
+}
