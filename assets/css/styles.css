@@ -205,3 +205,24 @@ section {
 .divider {
     color: black;
 }
+
+.additional-education-details-container {
+    margin-bottom: 15px;
+}
+
+.education {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+
+    margin: 55px 0 20px 0;
+}
+
+.education-place {
+    color: #ff6b08;
+    margin-bottom: 15px;
+}
+
+.specialization {
+    margin-bottom: 15px;
+}
