@@ -259,3 +259,31 @@ footer {
         padding: 40px 0 40px 0;
     }
 }
+
+/*Styles for tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+
+    .wrapper{
+        display: none;
+    }
+
+    .tech-skills-tablet-container{
+        display: none;
+    }
+
+    .sidebar {
+        background: #1e2939;
+        min-width: 300px;
+        padding: 40px 0 40px 0;
+    }
+
+    .name{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 66px;
+    }
+    .about-me-container {
+        padding: 70px 50px;
+    }
+}
