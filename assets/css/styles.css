@@ -479,4 +479,40 @@ footer {
     .header-burger.active span{
         transform: scale(0);
     }
+
+    .skills-list li span{
+        color: black;
+    }
+
+    .contact-list{
+        padding: 0;
+    }
+
+    .contact-list li a{
+        color: black;
+        display: block;
+    }
+
+    .contact-list li a:hover, .contact-list li a:focus{
+        color: #ff6b08;
+    }
+
+    .contact-list li a span:hover, .contact-list li a span:focus{
+        fill: #ff6b08;
+    }
+
+
+    .contacts-link svg{
+        fill: #ff6b08;
+        margin-right: 8px;
+    }
+
+    footer{
+        background-color: #1e2939;
+        color: white;
+        padding-left: 25px;
+        padding-right: 25px;
+        align-items: center;
+    }
+
 }
